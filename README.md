@@ -12,7 +12,7 @@ mock_roarm_pick_place/
 
 ├── mock_vision.py # Simulates metal disk detection using mock coordinates
 
-├── main.py # Integrates vision + mock arm to simulate pick and place
+├── pick_and_place_sim.py # Integrates vision + mock arm to simulate pick and place
 
 This simulation demonstrates:
 
