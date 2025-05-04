@@ -8,11 +8,17 @@ This repository contains a **mock pipeline** simulating a pick-and-place task us
 mock_roarm_pick_place/
 │
 ├── mock_arm.py # Simulates RoArm-M2 movement logic
+
 ├── mock_vision.py # Simulates metal disk detection using mock coordinates
+
 ├── main.py # Integrates vision + mock arm to simulate pick and place
+
 This simulation demonstrates:
+
 - How the RoArm-M2 Python interface might be used
+
 - Vision tracking via OpenCV (mocked)
+  
 - Integration of detection and robotic arm movement logic
 
 **Use-case:** For testing logic before real hardware is available.
@@ -25,8 +31,11 @@ The real RoArm-M2 Python SDK is available here:
 🔗 [waveshareteam/roarm_m2](https://github.com/waveshareteam/roarm_m2)
 
 The original repo contains:
+
 - Low-level serial and HTTP control files (`serial_simple_ctrl.py`, `http_simple_ctrl.py`)
+
 - Actual Python examples for dragging movements
+
 - README and setup for flashing firmware
 
 ---
@@ -34,14 +43,22 @@ The original repo contains:
 ## 🧪 Testing Steps
 
 1. Clone this repo or download the ZIP.
+
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
+
+
 Run the simulation:
+
 bash
+
 Copy
+
 Edit
+
 python main.py
+
 You’ll see mock logs indicating object detection, pick and place logic, etc.
 
 ✅ Files from Original Repo Referenced
