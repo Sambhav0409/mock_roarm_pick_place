@@ -49,15 +49,7 @@ The original repo contains:
    pip install -r requirements.txt
 
 
-Run the simulation:
-
-bash
-
-Copy
-
-Edit
-
-python main.py
+Run the simulation and
 
 You’ll see mock logs indicating object detection, pick and place logic, etc.
 
@@ -69,11 +61,19 @@ RoArm-M2_python/serial_simple_ctrl.py
 
 
 You’ll find detailed steps we followed to:
+
 Set up the repo
+
 Simulate the robotic arm
+
 Create the mock object tracker
+
 Integrate everything logically
+
+
+
 🙋 Contribution or Help
+
 Since this is a simulated setup, you’re welcome to fork this and replace mocks with real hardware when available!
 
 👨‍💻 Author
