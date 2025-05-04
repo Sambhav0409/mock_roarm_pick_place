@@ -6,7 +6,8 @@ This repository contains a **mock pipeline** simulating a pick-and-place task us
 
 ## 🔧 Project Structure
 mock_roarm_pick_place/
-│
+
+
 ├── mock_arm.py # Simulates RoArm-M2 movement logic
 
 ├── mock_vision.py # Simulates metal disk detection using mock coordinates
